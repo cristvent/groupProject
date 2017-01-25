@@ -43,37 +43,54 @@ body {
     width: 100%;
 }
 
-/*Path for large image on the home page*/
-.main-image {
-    background-image: url(../images/CCATRavel2.png);
+.carousel-inner {
+    height: 300px;
+    overflow: hidden;
 }
+
+.carousel-inner .item img {
+    height: 300px;
+    width: 100%;
+}
+
 
 /*Path for large image on resort 1*/
+
 .resort-1 {
-    background-image: url(../images/mount.png);
-}
-
-/*Path for large image on resort 2*/
-.resort-2 {
-    background-image: url(../images/resort1.png);
-}
-
-/*Path for large image on resort 3*/
-.resort-3 {
     background-image: url(../images/);
 }
 
+
+/*Path for large image on resort 2*/
+
+.resort-2 {
+    background-image: url(../images/);
+}
+
+
+/*Path for large image on resort 3*/
+
+.resort-3 {
+    background-image: url(../images/sea-1991481_1920.jpg);
+}
+
+
 /*Path for large image on resort 4*/
+
 .resort-4 {
     background-image: url(../images/);
 }
 
+
 /*Path for large image on resort 5*/
+
 .resort-5 {
     background-image: url(../images/);
 }
 
+
 /*Path for large image on resort 6*/
+
 .resort-6 {
     background-image: url(../images/);
 }
@@ -90,7 +107,7 @@ body {
     padding-right: 5px;
 }
 
-.breadcrumb{
+.breadcrumb {
     margin-bottom: 0px;
     padding-left: 5px;
 }
@@ -124,6 +141,10 @@ h3 {
     margin-top: 0px;
 }
 
+.resort-info{
+    padding: 5px;
+}
+
 footer {
     margin: 20px 0px;
 }
@@ -141,25 +162,27 @@ footer {
     .holder-shadow {
         box-shadow: 0 0px 0px 0px white, 0 0px 0px 0px white, 8px 0 10px -6px #ddd, -8px 0 10px -6px #ddd;
     }
-
     .resort-item {
         padding-top: 8px;
     }
-
     .resort-item:hover {
         background-color: #eee;
         color: grey;
     }
-
     .large-image {
         height: 400px;
     }
-
+    .carousel-inner {
+        height: 500px;
+    }
+    .carousel-inner .item img {
+        height: 500px;
+        width: 100%;
+    }
     #image-holder {
         height: 125px;
         padding-top: 150px;
     }
-
     #image-holder img {
         height: 125px;
     }
@@ -169,12 +192,10 @@ footer {
     .large-image {
         height: 500px;
     }
-
     #image-holder {
         height: 150px;
         padding-top: 175px;
     }
-
     #image-holder img {
         height: 150px;
     }
