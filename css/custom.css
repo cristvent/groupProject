@@ -53,6 +53,9 @@ body {
     width: 100%;
 }
 
+.holder-shadow p {
+    margin: 5px;
+}
 
 /*Path for large image on resort 1*/
 
