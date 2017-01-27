@@ -44,12 +44,12 @@ body {
 }
 
 .carousel-inner {
-    height: 280px;
+    height: 300px;
     overflow: hidden;
 }
 
 .carousel-inner .item img {
-    height: 280px;
+    height: 300px;
     width: 100%;
 }
 
@@ -194,7 +194,14 @@ footer {
         height: 500px;
         width: 100%;
     }
-  
+    #image-holder {
+        height: 125px;
+        padding-top: 150px;
+    }
+    #image-holder img {
+        height: 125px;
+    }
+
     #resort3-form{
         width: 100%;
     }
@@ -208,7 +215,13 @@ footer {
     .large-image {
         height: 500px;
     }
-
+    #image-holder {
+        height: 150px;
+        padding-top: 175px;
+    }
+    #image-holder img {
+        height: 150px;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -216,13 +229,10 @@ footer {
         width: 1170px;
         margin: 0px auto;
     }
-
-    #myCarousel{
+    
+        #myCarousel{
         width: 1170px;
         margin: 0px auto;
     }
 
-    .holder-shadow{
-        width: 1170px;
-    }
 }
