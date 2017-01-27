@@ -103,6 +103,9 @@ body {
     background-position: center;
     background-size: 100% 100%;
     height: 200px;
+    border-right: 2px solid #eee;
+    border-left: 2px solid #eee;
+    border-top: 4px solid #eee;
 }
 
 .col-xs-12 {
@@ -117,7 +120,7 @@ body {
 
 .resort-row a {
     text-decoration: none;
-    color: black;
+    color:white;
 }
 
 #image-holder {
@@ -169,8 +172,7 @@ footer {
         padding-top: 8px;
     }
     .resort-item:hover {
-        background-color: #eee;
-        color: grey;
+        color: #eee;
     }
     .large-image {
         height: 400px;
@@ -188,6 +190,14 @@ footer {
     }
     #image-holder img {
         height: 125px;
+    }
+
+    #resort3-form{
+        width: 100%;
+    }
+
+    #resort3-table{
+        width: 100%;
     }
 }
 
