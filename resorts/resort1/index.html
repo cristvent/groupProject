@@ -50,7 +50,7 @@
       </div>
       <!-- Resort information will go in this container -->
       <div class="container holder-shadow">
-        <h2> Cancun, Mexico -Ultra Inclusive Resort</h2>
+        <h2> Cancun, Mexico - Ultra Inclusive Resort</h2>
         <h2> Couples Only!</h2>
         <nav class="breadcrumb">
           <a class="breadcrumb-item" href="/">All Resorts </a>
@@ -58,7 +58,7 @@
         </nav>
         <!-- Content for Resort 1 in this container -->
         <div class="col-md-4">
-        <h1>Inclusive Includes:</h1>
+        <h1>Inclusive Includes</h1>
         <ul>
           <li>Breakfast Buffet</li>
           <li>Gourmet lunch</li>
@@ -86,17 +86,21 @@
             </div>
 
             <div class="form-group">
-              <label>Couples Outings:</label>
+              <label>RSVP Couples Outings:</label>
               <select class="form-control"> 
                 <option>Horseback Riding on the Beach</option>
                 <option>Spa Massage - 30min</option>
                 <option>Romantic Dinner on the Beach</option>
                 <option>Fine Dinning</option>
+                <option>Nude Beach</option>
               </select>
             </div>
-
+            <div class="form-group">
+            <label>Enter Date:</label>
+              <input type="text" id="date" name="user-date" class="form-control"/>
+            </div>
            <div class="form-group">
-              <label>Select a Time:</label>
+              <label>Select Time:</label>
               <select class="form-control"> 
                 <option>9:30am</option>
                 <option>2:30pm</option>
@@ -107,16 +111,16 @@
             <div class="button">
               <button type="submit" class="btn btn-success">Submit</button>
             </div>
-
+           </form>
+      </div> 
             <div class="col-md-4">
-            <h1>RSVP Confirmation</h1>
+            <h1>Confirmation</h1>
             <form action="http://formreflector.azurewebsites.net/form-reflector/" method="post">
             <div class="form-group">
               <!--<label></label>-->
-              <input type="text" id="confirm" name="user-confirme" class="form-control"/>
+              <input type="text" id="confirm" name="user-confirm" class="form-control"/>
           </form>
         </div>
-          </form>
         </div>
       </div>
   </main>
