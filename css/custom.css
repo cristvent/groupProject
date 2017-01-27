@@ -102,7 +102,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
-    color: blue;
+    color: white;
     height: 200px;
     border-right: 2px solid #eee;
     border-left: 2px solid #eee;
@@ -165,19 +165,26 @@ footer {
     margin: 0px;
 }
 
+.lunar-form{
+    padding: 5px;
+}
+
 @media (min-width: 768px) {
     .holder-shadow {
         box-shadow: 0 0px 0px 0px white, 0 0px 0px 0px white, 8px 0 10px -6px #ddd, -8px 0 10px -6px #ddd;
     }
+
+    .lunar-form .form-group{
+        width: 50%;
+    }
+
     .resort-item {
         padding-top: 8px;
     }
     .resort-item:hover {
 <<<<<<< HEAD
-        color: #eee;
+        color: #ddd;
 =======
-        background-color: #eee;
-        color: darkblue;
 >>>>>>> 2ce189f2eb9ccecac7b00e58562680704f68fcc0
     }
     .large-image {
