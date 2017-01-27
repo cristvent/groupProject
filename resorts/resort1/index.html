@@ -10,14 +10,14 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
-    <link href="/css/custom.css" rel="stylesheet">
+  <link href="/css/custom.css" rel="stylesheet">
 </head>
 
 <body>
   <main>
     <div id="main-wrapper" class="container-fluid">
       <div id="logo-holder">
-        <img class="logo-image" src="/images/" alt="Logo image" />
+        <img class="logo-image" src="/images/santorini-1663658_1920.jpg" alt="Logo image" />
         <p> Logo will go in this container. Set path in the above image tag.</p>
       </div>
       <nav class="navbar navbar-default">
@@ -46,34 +46,79 @@
       </nav>
       <!-- Holder for resort image -->
       <div class="large-image container resort-1">
-        <p> Holder for RESORT 1 image. Set the image path in CSS file, class of 'resort-1'</p>
+        <!--Holder for RESORT 1 image. Set the image path in CSS file, class of 'resort-1'-->
       </div>
       <!-- Resort information will go in this container -->
       <div class="container holder-shadow">
-        <h2> Cancun, Mexico - Ultra Inclusive Resort</h2>
+        <h2> Cancun, Mexico -Ultra Inclusive Resort</h2>
+        <h2> Couples Only!</h2>
         <nav class="breadcrumb">
           <a class="breadcrumb-item" href="/">All Resorts </a>
           <span class="breadcrumb-item active">/ Resort 1</span>
         </nav>
         <!-- Content for Resort 1 in this container -->
-        <p>Ultra Inclusive Includes:</p>
-                <p>Reservation: Last Name: Room number: Date:</p> 
-                <ul>
-                    <li>Breakfast Buffet</li>
-                    <li>Gourmet lunch</li>
-                    <li>Gourmet snacks</li>
-                    <li>24. Hrs. Room Service</li>
-                    <li>Alcoholics drinks</li>
-                    <li>Mini bar at the your room</li>
-                    <li>Activities and entertainment</li>
-                    <li>Non-motorized water sports equipment Breakfast</li>
-                    <li>Day beds and towel on the beach</li>
-                    <li>Fitness Center</li>
-                    <li>Kids Club</li>
-                    <li>All taxes and services</li>
-                </ul>
+        <div class="col-md-4">
+        <h1>Inclusive Includes:</h1>
+        <ul>
+          <li>Breakfast Buffet</li>
+          <li>Gourmet lunch</li>
+          <li>Gourmet snacks</li>
+          <li>24. Hrs. Room Service</li>
+          <li>Alcoholics drinks</li>
+          <li>Mini bar at the your room</li>
+          <li>Activities and entertainment</li>
+          <li>Non-motorized water sports equip Breakfast</li>
+          <li>Day beds and towel on the beach</li>
+          <li>Fitness Center</li>
+          <li>Kids Club</li>
+          <li>All taxes and services</li>
+        </ul>
+        </div>
+        <div class="col-md-4">
+          <h1>Couples Events</h1>
+          <form action="http://formreflector.azurewebsites.net/form-reflector/" method="post">
+            <div class="form-group">
+              <label>Last Name:</label>
+              <input type="text" id="name" name="user-name" class="form-control"/>
+
+              <label>Room Number:</label>
+              <input type="text" id="number" name="user-number" class="form-control" />
+            </div>
+
+            <div class="form-group">
+              <label>Couples Outings:</label>
+              <select class="form-control"> 
+                <option>Horseback Riding on the Beach</option>
+                <option>Spa Massage - 30min</option>
+                <option>Romantic Dinner on the Beach</option>
+                <option>Fine Dinning</option>
+              </select>
+            </div>
+
+           <div class="form-group">
+              <label>Select a Time:</label>
+              <select class="form-control"> 
+                <option>9:30am</option>
+                <option>2:30pm</option>
+                <option>6:30pm</option>
+              </select>
+            </div>
+
+            <div class="button">
+              <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+
+            <div class="col-md-4">
+            <h1>RSVP Confirmation</h1>
+            <form action="http://formreflector.azurewebsites.net/form-reflector/" method="post">
+            <div class="form-group">
+              <!--<label></label>-->
+              <input type="text" id="confirm" name="user-confirme" class="form-control"/>
+          </form>
+        </div>
+          </form>
+        </div>
       </div>
-    </div>
   </main>
   <footer class="container-fluid text-center">
     <p><small> &copy; <time datetime="2017"> 2017 </time> CCA Travel </small></p>

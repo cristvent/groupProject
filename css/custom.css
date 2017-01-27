@@ -60,7 +60,7 @@ body {
 /*Path for large image on resort 1*/
 
 .resort-1 {
-    background-image: url(../images/);
+    background-image: url(../images/santorini-1663658_1920.jpg);
 }
 
 
@@ -102,8 +102,11 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
-    color: blue;
+    color: white;
     height: 200px;
+    border-right: 2px solid #eee;
+    border-left: 2px solid #eee;
+    border-top: 4px solid #eee;
 }
 
 .col-xs-12 {
@@ -118,7 +121,7 @@ body {
 
 .resort-row a {
     text-decoration: none;
-    color: black;
+    color:white;
 }
 
 #image-holder {
@@ -162,16 +165,27 @@ footer {
     margin: 0px;
 }
 
+.lunar-form{
+    padding: 5px;
+}
+
 @media (min-width: 768px) {
     .holder-shadow {
         box-shadow: 0 0px 0px 0px white, 0 0px 0px 0px white, 8px 0 10px -6px #ddd, -8px 0 10px -6px #ddd;
     }
+
+    .lunar-form .form-group{
+        width: 50%;
+    }
+
     .resort-item {
         padding-top: 8px;
     }
     .resort-item:hover {
-        background-color: #eee;
-        color: darkblue;
+<<<<<<< HEAD
+        color: #ddd;
+=======
+>>>>>>> 2ce189f2eb9ccecac7b00e58562680704f68fcc0
     }
     .large-image {
         height: 400px;
@@ -189,6 +203,14 @@ footer {
     }
     #image-holder img {
         height: 125px;
+    }
+
+    #resort3-form{
+        width: 100%;
+    }
+
+    #resort3-table{
+        width: 100%;
     }
 }
 

@@ -49,14 +49,95 @@
       </div>
       <!-- Resort information will go in this container -->
       <div class="container holder-shadow">
-        <h2> Cristian's Resort</h2>
+        <h2> Ventura Island </h2>
         <nav class="breadcrumb">
           <a class="breadcrumb-item" href="/">All Resorts</a>
-          <span class="breadcrumb-item active">/ Cristian's Resort</span>
+          <span class="breadcrumb-item active">/ Ventura Island</span>
         </nav>
-
         <div class="resort-info">
-        <h4> General Information </h4>
+          <div class="row">
+            <div class="col-md-6">
+              <div id="resort3-table" class="panel panel-default">
+                <div class="panel-heading">
+                  <h4> Packages </h4>
+                  <p> Each package and pricing is <b>per person</b>. Some activites are seasonal, so we have not listen each one. Please fill out the form to get more information about each package. </p> 
+                </div>
+                <div class="panel-body table-responsive">
+                  <table class="table table-striped table-border">
+                    <thead>
+                      <tr>
+                        <th>Package</th>
+                        <th>Days</th>
+                        <th>Activities</th>
+                        <th>Food</th>
+                        <th>Price</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Bronze</th>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>Not Included</td>
+                        <td>$800</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Silver</th>
+                        <td>5</td>
+                        <td>5</td>
+                        <td>Not Included</td>
+                        <td>$1200</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Gold</th>
+                        <td>8</td>
+                        <td>8</td>
+                        <td>Included</td>
+                        <td>$1600</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <form id="resort3-form" action="http://formreflector.azurewebsites.net/form-reflector/" method="POST">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4> Need More Info ? </h4>
+                    <p> Fill out and submit that form to get more information about our packages.</p>
+                  </div>
+                  <div class="panel-body">
+                    <div class="form-group">
+                      <label for="person-first">First Name</label>
+                      <input type="text" class="form-control" id="person-first" name="first-name" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="person-last">Last Name</label>
+                      <input type="text" class="form-control" id="person-last" name="last-name" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="person-email">Email</label>
+                      <input type="text" class="form-control" id="person-email" name="email" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="person-package">Select a Package</label>
+                      <select multiple class="form-control" id="person-package" name="package">
+                        <option value="Bronze">Bronze</option>
+                        <option value="Silver">Silver</option>
+                        <option value="Gold">Gold</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="person-msg">Questions or Comments</label>
+                      <textarea class="form-control" id="person-msg" name="message" rows="3"></textarea>
+                    </div>
+                    <button class="btn btn-success" type="submit"> Submit Question </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
